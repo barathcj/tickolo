@@ -1,6 +1,6 @@
 <?php
-mysql_connect("localhost","root","");
-mysql_select_db("tickolo_database");
+mysql_connect("localhost","admindCZYsJ9","1m-GZ-Gispqp");
+mysql_select_db("tickolo");
 $eventtype =   $_POST['eventtype'];
 $sql=mysql_query("select * from tickets where event_type = '" . $eventtype . "'");
 //$sql=mysql_query("select * from tickets where event_name = 'ssui class'");
